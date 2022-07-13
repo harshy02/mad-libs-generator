@@ -19,6 +19,8 @@ def madlib1():
     adj1 = input('Enter an adjective: ')
     adj2 = input('Enter an adjective: ')
     adj3 = input('Enter an adjective: ')
+
+    #string concatenation
     text = f"All the things I really like are either {adj1}, {adj2} or {adj3}."
     
     printOutput(text)
